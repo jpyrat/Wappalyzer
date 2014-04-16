@@ -2633,6 +2633,12 @@
 			"cats": [ 12 ],
 			"env": "^(?:SoundManager|BaconPlayer)$"
 		},
+		"SoyezCréateurs": {
+			"website": "www.pyrat.net",
+			"cats": [ 1 ],
+			"headers": { "Composed-By": ".*soyezcreateurs.*" }
+			"implies": "SPIP"
+		},
 		"SPDY": {
 			"website": "chromium.org/spdy",
 			"cats": [ 19 ],
